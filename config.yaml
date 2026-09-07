@@ -25,11 +25,11 @@ sources:
   - path: sources/gitops-operator
     url: https://github.com/redhat-developer/gitops-operator.git
     ref: v1.19
-    commit: b724d78b5d85cfccb4e2258dc37aa1c8f09955e4
+    commit: 3efbdb4185bfc9ed9f3b1f8f602379111d03b9dd
   - path: sources/argo-cd
     url: https://github.com/argoproj/argo-cd.git
-    ref: v3.1.13
-    commit: ed35bc32046bae4b1fa945063cbbc4c042bc6369
+    ref: v3.1.16
+    commit: 5d001b80990d14c0fc9b2cbee1eac25fc288da15
   - path: sources/argo-rollouts
     url: https://github.com/argoproj/argo-rollouts.git
     ref: v1.8.4
@@ -65,7 +65,7 @@ sources:
   - path: sources/gitops-console-plugin
     url: https://github.com/redhat-developer/gitops-console-plugin.git
     ref: v1.19
-    commit: c36e6a73ed888fe367e91583f77b1dda4dfd2f05
+    commit: 3379bd620d885b5f656c6d08961c6d7dced9d4cd
   - path: sources/gitops-backend
     url: https://github.com/redhat-developer/gitops-backend.git
     ref: master
@@ -88,8 +88,8 @@ sources:
     commit: d8c7f9287090d963ba8b1ca5678079c7dc77a342
   - path: sources/argocd-image-updater
     url: https://github.com/argoproj-labs/argocd-image-updater.git
-    ref: v1.0.3
-    commit: e6e07a3b0ff9d8eb29b3735229c69924f80af27c
+    ref: v1.0.4
+    commit: 0da8b1b12381e854acf448e566bfa07c6c943984
 # External images pulled directly from Red Hat registry and are
 # required by the operator at runtime.
 # Bundle generation script will automatically fetch latest sha for each image 
